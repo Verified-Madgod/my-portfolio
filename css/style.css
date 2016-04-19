@@ -1,0 +1,125 @@
+body{
+	margin:0;
+	padding:0;
+	overflow-y:scroll;
+	background-color:#333;
+}
+
+#nav{
+	background-color:#222;
+	border-bottom:1px solid black;
+}
+
+#nav_wrapper{
+	width:90em;
+	margin:0 auto;
+	text-align: left;
+}
+
+#nav ul{
+	list-style-type:none;
+	padding:0;
+	margin:0;
+	position:relative;
+}
+
+#nav ul li{
+	display:inline-block;
+}
+
+#nav ul li:hover{
+	background-color:#333;
+}
+
+#nav ul li a,visited{
+	color:#ccc;
+	display:block;
+	padding:15px;
+	text-decoration:none;
+}
+
+#nav ul li a:hover{
+	color:#ccc;
+	text-decoration:none;
+}
+
+.right{
+	display:-webkit-flex;
+	display:flex;
+	float:right;
+}
+
+ul.list li{
+	float:left;
+	text-align:center;
+	display:inline-block;
+	font-family:Perpetua,Baskerville,Big Caslon,Palatino Linotype, Palatino, URW Palladio L, Nimbus Roman No9 L, serif;
+	font-weight:bold;
+	color:#DBDBDB;
+	padding:20px;
+}
+
+ul.list{
+	list-style-type:none;
+	overflow:hidden;
+	margin-top:7em;
+	margin-left:4em;
+}
+
+#table{
+	display:table;
+	width:100%;
+	margin:0 auto;
+}
+
+#table ul li a img{
+	border:3px solid #000;
+}
+
+.three{
+	width:31%;
+}
+
+.five{
+	width:17%;
+	margin:2px;
+}
+
+.title{
+	text-align:center;
+}
+
+a:link{
+	color:#555;
+	font-weight:bold;
+	background-color:transparent;
+	text-decoration:none;
+}
+
+a:visited{
+	color:#555;
+}
+
+a:active{
+	text-decoration:underline;
+}
+
+#nav ul li:hover ul{
+	display:block;
+}
+
+#nav ul ul{
+	display:none;
+	position:absolute;
+	border:1px solid black;
+	border-bottom:0;
+}
+
+#nav ul ul{
+	background-color:#222;
+}
+
+#nav_wrapper ul li li{
+	border-bottom:1px solid black;
+	display:block;
+}
